@@ -49,6 +49,15 @@ sarang-portfolio1/
 └── assets/            # Images, icons, preview screenshots
 
 ```
+---
+
+## 📥 Usage / Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/sarangnayak/sarang-portfolio1.git
+   cd sarang-portfolio1
+   
 🧩 Customization Ideas
 	•	Add smooth scroll or scroll reveal animations
 	•	Add a dark / light mode toggle
