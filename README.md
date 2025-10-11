@@ -84,3 +84,7 @@ Sarang Nayak
 ⸻
 
 ⭐ If you like this portfolio, feel free to give it a star!
+---
+```
+If you like, I can also **extract the actual HTML, CSS, and JS** from your live site and prepare a clean repo template (with a ready-to-go preview image). Do you want me to fetch that for you?
+```
