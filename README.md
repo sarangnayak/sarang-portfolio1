@@ -16,7 +16,6 @@
 ## 🖼 Preview
 
 ![Portfolio Hero Preview](./preview.png)  
-*(Replace this with a screenshot from your `assets/` folder using path `assets/preview.png` or similar.)*
 
 ---
 
