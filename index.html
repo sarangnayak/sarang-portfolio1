@@ -1,95 +1,294 @@
 <!DOCTYPE html>
-<html style="background: #776e5c" lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Sarang Nayak's Portfolio showcasing experience in web and Java development, with a focus on skills, education, and work history.">
+    <meta name="description" content="Sarang Nayak's Advanced Portfolio showcasing expertise in web and Java development">
     <meta name="author" content="Sarang Nayak Bala">
-    <title>Sarang's Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Add your custom stylesheet if needed -->
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Sarang Nayak | Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
     <header>
-        <h1>Sarang Nayak</h1>
-        <a href="./1contact.html">
-            <img src="./assets/View recent photos.png" height="200" alt="Professional photo of Sarang Nayak Bala">
-        </a>
+        <div class="logo">SN</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
-    
-    <section id="summary">
-        <h2>Summary</h2>
-        <hr>
-        <p>I am a hardworking and dedicated individual with experience in web development and Java development.</p>
-        <hr>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+            <h1 class="hero-title">Sarang <span class="highlight">Nayak</span></h1>
+            <p class="hero-subtitle">Full-Stack Developer & Problem Solver</p>
+            <p class="hero-description">Crafting digital experiences with cutting-edge technology</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </section>
 
-    <section id="education">
-        <h3>EDUCATION</h3>
-        <ul>
-            <li>Master in Technology BIT Bangalore, Karnataka.</li>
-        </ul>
-        <hr>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate and dedicated full-stack developer with expertise in web development and Java technologies. With experience at leading tech companies, I specialize in creating robust, scalable solutions.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="work-experience">
-        <h3>Work Experience </h3>
-        <ul>
-            <li>
-                <h3>Customer Experience</h3>
-                <p>June 2022 - May 2024</p>
-                <ul>
-                    <li>Created a website for Accenture.</li>
-                    <li>Worked as a project manager at Accenture.</li>
-                    <li>Maintained the server-side infrastructure at IBM.</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Project Manager and Head Assistant at IBM</h3>
-                <p>June 2024 - Present</p>
-                <ul>
-                    <li>Assisted with scheduling appointments and meetings.</li>
-                    <li>Managed incoming and outgoing server-side issues.</li>
-                    <li>Developed a complete debugging system for IBM.</li>
-                </ul>
-            </li>
-        </ul>
-        <hr>
+    <!-- Experience Section -->
+    <section id="experience" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Project Manager & Head Assistant</h3>
+                        <h4>IBM</h4>
+                        <span class="date">June 2024 - Present</span>
+                        <ul>
+                            <li>Assisted with scheduling appointments and meetings</li>
+                            <li>Managed incoming and outgoing server-side issues</li>
+                            <li>Developed a complete debugging system for IBM</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Customer Experience Specialist</h3>
+                        <h4>Accenture & IBM</h4>
+                        <span class="date">June 2022 - May 2024</span>
+                        <ul>
+                            <li>Created a website for Accenture</li>
+                            <li>Worked as a project manager at Accenture</li>
+                            <li>Maintained the server-side infrastructure at IBM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="skills">
-        <h3>Skills</h3>
-        <ul>
-            <li>Frontend Development ⭐️⭐️⭐️</li>
-            <li>Backend Development ⭐️⭐️⭐️⭐️</li>
-            <li>Full Stack Development ⭐️⭐️⭐️⭐️</li>
-            <li>Problem Solving Skills ⭐️⭐️⭐️</li>
-            <li>Analytical Skills ⭐️⭐️⭐️</li>
-            <li>UI/UX Designs ⭐️⭐️⭐️</li>
-        </ul>
-        <hr>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="85"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="90"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Full Stack Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="88"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Problem Solving</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="80"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="75"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytical Skills</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="awards">
-        <h3>Awards and Certifications</h3>
-        <ul>
-            <li>Employee of the Month (August 2023)</li>
-            <li>Standout Performer (June 2024)</li>
-        </ul>
-        <hr>
+    <!-- Projects Section -->
+    <section id="projects" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Accenture Website</h3>
+                        <p>Developed a comprehensive website for Accenture with modern UI/UX design</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>IBM Debugging System</h3>
+                        <p>Created a complete debugging system for server-side infrastructure</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Server Management</h3>
+                        <p>Maintained and optimized server-side infrastructure for IBM</p>
+                        <div class="project-tech">
+                            <span>Linux</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="others">
-        <h3>Others</h3>
-        <ul>
-            <li><a href="./hobbies.html">My Hobbies</a></li>
-            <li><a href="./1contact.html">Get in Touch</a></li>
-        </ul>
+    <!-- Education & Awards -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & Achievements</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Master in Technology</h3>
+                    <p>BIT Bangalore, Karnataka</p>
+                </div>
+                <div class="awards-grid">
+                    <div class="award-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Employee of the Month</h4>
+                        <p>August 2023</p>
+                    </div>
+                    <div class="award-card">
+                        <i class="fas fa-star"></i>
+                        <h4>Standout Performer</h4>
+                        <p>June 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 84293 84289</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sarangnayak268@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Sector 65, M3M Golf Estate,<br>St. Andrews, Gurugram - 122101</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Copyright &copy; Sarang Nayak Bala &#174</p>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Sarang Nayak Bala. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
