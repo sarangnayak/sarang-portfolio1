@@ -49,3 +49,38 @@ sarang-portfolio1/
 └── assets/            # Images, icons, preview screenshots
 
 ```
+🧩 Customization Ideas
+	•	Add smooth scroll or scroll reveal animations
+	•	Add a dark / light mode toggle
+	•	Add interactive elements in hero (typed text, dynamic effects)
+	•	Animate section transitions
+	•	Add backend contact form (using email API)
+
+⸻
+
+🤝 Contributing
+
+Contributions are welcome:
+	•	Fork the repo
+	•	Create a feature branch
+	•	Make your changes
+	•	Submit a Pull Request
+
+⸻
+
+📜 License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+⸻
+
+👤 Author
+
+Sarang Nayak
+🔗 GitHub
+🌐 Portfolio
+
+⸻
+
+⭐ If you like this portfolio, feel free to give it a star!
