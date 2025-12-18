@@ -38,17 +38,6 @@ The **Hero section** sets the tone with a strong intro:
 
 ---
 
-## 📂 Folder Structure
-```
-sarang-portfolio1/
-│
-├── index.html        # Main markup
-├── style.css         # Styling, layout, animations
-├── script.js         # (Optional) JS for scroll or interactivity
-└── assets/            # Images, icons, preview screenshots
-
-```
----
 
 ## 📥 Usage / Setup
 
