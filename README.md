@@ -88,8 +88,3 @@ See the LICENSE file for details.
 Sarang Nayak
 🔗 GitHub
 🌐 Portfolio
-
-⸻
-
-⭐ If you like this portfolio, feel free to give it a star!
----
