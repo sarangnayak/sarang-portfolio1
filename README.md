@@ -52,19 +52,6 @@ sarang-portfolio1/
 
 ## 📥 Usage / Setup
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/sarangnayak/sarang-portfolio1.git
-   cd sarang-portfolio1
-   
-🧩 Customization Ideas
-	•	Add smooth scroll or scroll reveal animations
-	•	Add a dark / light mode toggle
-	•	Add interactive elements in hero (typed text, dynamic effects)
-	•	Animate section transitions
-	•	Add backend contact form (using email API)
-
-⸻
 
 🤝 Contributing
 
