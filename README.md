@@ -78,4 +78,3 @@ This project is open-source and available for personal and educational use.
 ---
 
 © 2025 Sarang Nayak
-
