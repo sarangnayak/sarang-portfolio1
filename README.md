@@ -1,7 +1,3 @@
-# Sarang Portfolio Website
-
-A personal portfolio website built using **HTML, CSS, and JavaScript** to showcase projects, skills, hobbies, and contact information. The website is fully static and deployed using **GitHub Pages**.
-
 ---
 
 ## 🌐 Live Demo
